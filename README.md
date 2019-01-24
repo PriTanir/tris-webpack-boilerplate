@@ -105,7 +105,7 @@ module.exports = merge(common, {
 
 We want our development and production builds to produce the same results visually in the browser. You don't want to finish coding, run the build, and then have a totally different website on build with missing images for example. That's why we have `webpack.common.js` to handle all the loaders and asset management. The `webpack.dev.js` will be slightly different with a lighter weight sourcemap. Finally the `webpack.prod.js` will handle all the final stages of getting your website to production. That being image compression, asset compression (gzip), asset minification, favicon generation, caching, and creating an offline-first experience.
 
-I'll go into each process below.
+I'll go into each process as below.
 
 <a name="wds"/></a>
 ___
